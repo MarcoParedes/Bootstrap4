@@ -12,4 +12,21 @@
             $("#carousel-button").children("span").addClass('fa-pause');                    
         }
     });
+
+    $('#login-open').click(function() {
+        $('#loginModal').modal('show');
+    });
+
+    $('#login-cancel').click(function() {
+        $('#loginModal').modal('hide');
+    });
+
+    $('#reserve-open').click(function() {
+        $('#reserveModal').modal('show');
+    });
+
+    $('#reserve-cancel').click(function() {
+        $('#reserveModal').modal('hide');
+    });
+
 });

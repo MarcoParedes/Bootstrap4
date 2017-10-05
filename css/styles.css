@@ -1,3 +1,11 @@
+a {
+  color: #fff;
+  text-decoration: none; }
+
+a:hover {
+  color: #fff;
+  text-decoration: none; }
+
 .row-header {
   margin: 0px auto;
   padding: 0px 0px; }
@@ -51,3 +59,13 @@ body {
   right: 0px;
   position: absolute;
   bottom: 0px; }
+
+.modal-header {
+  background: #512DA8;
+  color: floralwhite; }
+
+.modal-body {
+  background: #D1C4E9; }
+
+.modal-footer {
+  background: #9575CD; }

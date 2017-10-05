@@ -11,6 +11,16 @@ $carousel-item-height: 300px;
 	padding: $pad-up-dn $pad-left-right;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
 .row-header{
     @include zero-margin(0px,0px);
 }
@@ -69,4 +79,17 @@ body{
     right:0px;
     position: absolute;
     bottom: 0px;
+}
+
+.modal-header {
+    background: $background-dark;
+    color: floralwhite; 
+}
+
+.modal-body {
+    background: $background-pale;
+}
+
+.modal-footer {
+    background: $background-light;
 }
